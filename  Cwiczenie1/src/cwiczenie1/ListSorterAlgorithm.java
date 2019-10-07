@@ -8,8 +8,9 @@ package cwiczenie1;
 /**
  *
  * @author klebowsm
- * @param <T>
  */
-public interface ListSorterAlgorithm<T extends Comparable<T>> {
-    public T[] sort(T[] unsortedVector); // zwraca wektor posortowanych liczb typu double
+public interface ListSorterAlgorithm {
+
+     public double[] sort(double[] unsortedVector); // zwraca wektor posortowanych liczb typu double
+
 }

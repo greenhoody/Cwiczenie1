@@ -9,12 +9,12 @@ package cwiczenie1;
  *
  * @author klebowsm
  */
-public class ListSorter<T extends Comparable<T>> implements ListSorterAlgorithm<T>{
+public class ListSorter implements ListSorterAlgorithm{
     
-    private T[] 
+    private double[] sortedVector;
     
-     public  T[] sort(T[] unsortedVector){
-        return T[];
+     public  double[] sort(double[] unsortedVector){
+        return unsortedVector;
     }
     
 }
