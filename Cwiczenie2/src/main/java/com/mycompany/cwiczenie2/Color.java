@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cwiczenie1;
+package com.mycompany.cwiczenie2;
 
 /**
  *
- * @author klebowsm
+ * @author nikt
  */
-public interface ListSorterAlgorithm {
-
-    public double[] sort(double[] unsortedVector); // zwraca wektor posortowanych liczb typu double
-
+public enum Color {
+    RED,
+    BLACK
 }
